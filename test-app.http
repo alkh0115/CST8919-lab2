@@ -1,17 +1,17 @@
-### Successful login
-POST http://localhost:5000/login
+### Successful login (Azure)
+POST https://cst8919-lab2-rahaf-h3bhe3gpekggd8fk.canadacentral-01.azurewebsites.net/login
 Content-Type: application/x-www-form-urlencoded
 
 username=admin&password=pass123
 
-### Failed login
-POST http://localhost:5000/login
+### Failed login (Azure)
+POST https://cst8919-lab2-rahaf-h3bhe3gpekggd8fk.canadacentral-01.azurewebsites.net/login
 Content-Type: application/x-www-form-urlencoded
 
 username=admin&password=wrongpass
 
-### Another failed login
-POST http://localhost:5000/login
+### Another failed login (Azure)
+POST https://cst8919-lab2-rahaf-h3bhe3gpekggd8fk.canadacentral-01.azurewebsites.net/login
 Content-Type: application/x-www-form-urlencoded
 
 username=admin&password=123456
