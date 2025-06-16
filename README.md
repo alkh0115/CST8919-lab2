@@ -68,3 +68,4 @@ Use `test-app.http` in VS Code with the REST Client extension to test login succ
 ---
 
 ## YouTube Video Demo
+[https://youtu.be/hcLbkYLe7WE](https://youtu.be/hcLbkYLe7WE)
