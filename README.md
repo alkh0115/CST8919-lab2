@@ -6,6 +6,18 @@ This lab demonstrates how to detect suspicious login activity by combining a Pyt
 
 ---
 
+## Included Files
+
+| File             | Description                                        |
+|------------------|----------------------------------------------------|
+| `app.py`         | Flask app with login endpoint and logging          |
+| `requirements.txt` | Python dependencies (`flask`, `gunicorn`)   |
+| `test-app.http`  | HTTP test requests using VS Code REST Client       |
+| `.gitignore`     | Ignores virtual environment and cache files        |
+| `README.md`      |                            |
+
+---
+
 ## What I Learned
 
 - How to deploy a Python Flask app to Azure App Service.
@@ -47,5 +59,12 @@ AppServiceConsoleLogs
 - **ResultDescription has "SECURITY-ALERT":** Filters logs for failed login attempts marked as security alerts in app.py.
 - **project:** Only selects relevant columns.
 - **order by:** Sorts results for latest logs first.
+
+---
+
+## Testing
+Use `test-app.http` in VS Code with the REST Client extension to test login success and failure.
+
+---
 
 ## YouTube Video Demo
